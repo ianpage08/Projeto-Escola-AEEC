@@ -30,10 +30,65 @@
 
 
 }
-#menu > a{
+
+#menu  a {
     display: block;
     padding: 10px;
+    text-decoration: none;
 } 
-.lista {
+#btn-mobile {
+    display: none;
 
 }
+@media (max-width:600px){
+    #btn-mobile {
+        display: flex;
+        padding: 0.5em  ;
+        font-size: 1em;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        background-color: #9c6ffc;
+    }
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        z-index: 1000;
+        transition: 1s;
+        background-color: #9c6ffc;
+        visibility: hidden;
+        height: 0px;
+        overflow-y: hidden;
+    }
+    #nav.active  #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+        margin: 10px 0;
+    }
+    #nav.active  #menu::after{
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        font-size: 1.2em;
+        color: black;
+        font-weight: bold;
+        margin: 0 1em;
+        padding: 1em 0;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.199);
+    }
+    #menu a:hover{
+        background-color: aliceblue;
+        transition: 0.8s;
+        font-size: 2em;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+    }
+}
+    
