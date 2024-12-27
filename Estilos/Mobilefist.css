@@ -40,6 +40,7 @@
     display: none;
 
 }
+/* configuração menu hamburguer*/
 @media (max-width:600px){
     #btn-mobile {
         display: flex;
@@ -91,4 +92,64 @@
         margin: 10px;
     }
 }
-    
+/*Seção Sobre Nós*/
+
+#sobrenos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+#sobre{
+    margin: 20px;
+    width: 420px;
+}
+#sobre h1 {
+    text-align: center;
+    font-size: 1.9em;
+    background-image: linear-gradient(to right, rgba(113, 6, 236, 0.205) 100%, rgba(255, 255, 255, 0.459));
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0px;
+
+}
+#sobre p {
+    font-size: 1.05em;
+    text-align: justify;
+    text-indent: 20px;
+}
+#criaça{
+    width: 400px;
+}
+/*Seção Equipe*/
+#equipe {
+    text-align: center;
+    margin: 20px;
+}
+#equipe h2{
+    text-align: center;
+    font-size: 1.9em;
+    background-image: linear-gradient(to right, rgba(113, 6, 236, 0.205) 100%, rgba(255, 255, 255, 0.459));
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+#eqp {
+    margin: 20px 0px ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+#eqp img {
+    width: 130px;
+    margin: 10px;
+}
+#eqp p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#Carrossel {
+    background-color: aqua;
+}
+#matriculas{
+    background-color: burlywood;
+}
