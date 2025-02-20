@@ -106,4 +106,20 @@ header {
   opacity: 1;
 }
 
+#sobre {
+  padding-top: 32px;
+}
+#sobre .conteudo-sobre {
+  padding: 10px;
+  max-width: 500px;
+  width: 100%;
+}
+#sobre .conteudo-sobre p {
+  text-indent: 16px;
+  text-align: justify;
+}
+#sobre .conteudo-sobre img {
+  max-width: 400px;
+}
+
 /*# sourceMappingURL=main.css.map */
