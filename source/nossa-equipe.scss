@@ -1,0 +1,18 @@
+#equipe{
+    padding-top: 32px;
+    .flex{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        div{
+            margin: 0px 2px;
+            img{
+            padding: 5px;
+            max-width: 220px;
+            width: 100%;
+            } 
+        }
+        
+    }
+
+}

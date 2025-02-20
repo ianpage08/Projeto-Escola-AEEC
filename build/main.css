@@ -122,4 +122,21 @@ header {
   max-width: 400px;
 }
 
+#equipe {
+  padding-top: 32px;
+}
+#equipe .flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+#equipe .flex div {
+  margin: 0px 2px;
+}
+#equipe .flex div img {
+  padding: 5px;
+  max-width: 220px;
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
