@@ -6,9 +6,13 @@
 }
 
 .conteudo-faq{
-        display: block;
+        height: 0px;
+        overflow: hidden;
+        transition: height  0.5s ease-in-out;
     }
 .conteudo-faq.active{
-        display: none;
+        height: 50px;
+        
 }
+
     
