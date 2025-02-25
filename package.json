@@ -11,8 +11,19 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "sass": "^1.85.0"
-  }
+  },
+  "dependencies": {
+    "projeto-escola-aeec": "file:"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianpage08/Projeto-Escola-AEEC.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ianpage08/Projeto-Escola-AEEC/issues"
+  },
+  "homepage": "https://github.com/ianpage08/Projeto-Escola-AEEC#readme",
+  "description": ""
 }
