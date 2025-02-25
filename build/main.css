@@ -38,7 +38,6 @@ header {
   list-style-type: none;
 }
 #menu .menu-principal :hover {
-  scale: 1.01;
   border-radius: 16px 0px 0px 16px;
   background-color: rgb(255, 251, 6);
   transition: 0.5s;
@@ -65,7 +64,7 @@ header {
 }
 
 #menu.active {
-  transition: 0.5s;
+  transition: opacity 0.5s ease-in-out;
   margin-top: -85px;
   height: 100vh;
   z-index: 1;
@@ -137,6 +136,22 @@ header {
   padding: 5px;
   max-width: 220px;
   width: 100%;
+}
+
+#matriculas .card {
+  margin: 5px;
+}
+
+#perguntas .acordion {
+  border: 2px dotted black;
+}
+
+.conteudo-faq {
+  display: block;
+}
+
+.conteudo-faq.active {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */

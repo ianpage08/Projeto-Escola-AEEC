@@ -1,0 +1,14 @@
+#perguntas{
+    .acordion{
+        border: 2px  dotted  black ;
+    }
+    
+}
+
+.conteudo-faq{
+        display: block;
+    }
+.conteudo-faq.active{
+        display: none;
+}
+    
