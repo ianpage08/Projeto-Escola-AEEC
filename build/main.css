@@ -155,4 +155,27 @@ header {
   height: 50px;
 }
 
+#eventos {
+  background-color: aquamarine;
+}
+#eventos .imagem {
+  border: 1 dotted black;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+}
+#footer div .flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */
